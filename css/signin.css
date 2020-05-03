@@ -58,15 +58,15 @@ p {
 }
 
 .form-align{
-  margin-left: 200px;
-  margin-bottom: 20px;
+  margin-left: 23%;
+  margin-bottom: 5%;
 }
 
 .form-card{
-    margin-left: 40px;
-    margin-right: 0px;
-    border-left-width: 0px;
-    padding-left: 0px
+    margin-left: 10%;
+    margin-right: 0%;
+    border-left-width: 0%;
+    padding-left: 0%;
 }
 
 .form-card-header{
@@ -75,11 +75,11 @@ p {
 }
 
 #new-acc{
-  margin-left: 90px;
+  margin-left: 28%;
   color: #27496d;
 }
 .form-btn{
-      margin-left: 130px;
+      margin-left: 40%;
       background-color: #27496d;
       color: white;
 }
