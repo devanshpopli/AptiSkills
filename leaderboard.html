@@ -7,7 +7,7 @@
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <!-- CSS -->
-  <link rel="stylesheet" href="css/signin.css">
+  <link rel="stylesheet" href="css/leaderboard.css">
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
   <!-- Javascript -->
@@ -26,46 +26,89 @@
 
       <!-- Nav Bar -->
       <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="">AptiSkills</a>
+        <a class="navbar-brand" href="index.html">AptiSkills</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Practise</a>
+              <a class="nav-link" href="">Practise</a>
             </li>
+           
             <li class="nav-item">
               <a class="nav-link" href="">Leaderboard</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="signin.html">Sign In</a>
-            </li>
+             <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Account
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Dashboard</a>
+          
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Sign Out</a>
+        </div>
+      </li>
           </ul>
         </div>
       </nav>
+      
+    <div class="card">
+      <h4 class="card-header">Leaderboard</h4>
+      <div class="card-body">
+        <table class="table">
+  <thead class="table-color">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Ishita</td>
+      <td>Sharma</td>
+      <td>@isharma</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Rahul</td>
+      <td>Pandey</td>
+      <td>@rahul_pandey</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Devansh</td>
+      <td>Popli</td>
+      <td>@devanshp</td>
+    </tr>
+  </tbody>
 
-      <!-- Sign-In Form -->
-      <div class="row">
-        <div class=" form-align col-lg-6">
-          <div class=" form-card card">
-            
-             <div class="card-body">
-                <div class="form-group">
-                   <form>
-                     <label class="form-text">Username</label>
-                     <input class="form-control" type="text"><br>
-                     <label class="form-text">Password</label>
-                     <input class="form-control" type="password"><br>
-                     <button type="button" class="form-btn btn ">Sign In</button><br><br>
-                     <a id="new-acc"href="new_account.html">Create a new account!</a>
-                  </form>
-                </div>
-              </div>
-          </div>
-         
-         
-        </div>
+
+
+  <thead class="thead-light">
+    <tr>
+      <th scope="col">4</th>
+      <th scope="col">Alisha</th>
+      <th scope="col">Kalra</th>
+      <th scope="col">@alishakalra</th>
+    </tr>
+  </thead>
+ 
+    <tr>
+      <th scope="row">5</th>
+      <td>Pranav</td>
+      <td>Vinayak</td>
+      <td>@pvinayak</td>
+    </tr>
+    <tr>
+      
+</table>
       </div>
+    </div>
+      </div>
+    </section>
 
-  </section>
